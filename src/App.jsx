@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import BlogPage from "./pages/BlogPage";
+import BlogDetail from "./pages/BlogDetail";
 
-const App = () => {
+function App() {
   return (
-    <div className='w-full h-screen flex items-center justify-center bg-zinc-900 text-white text-2xl'>
-      Careerwill
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:id" element={<BlogDetail />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
