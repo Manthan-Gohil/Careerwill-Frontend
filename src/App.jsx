@@ -4,6 +4,10 @@ import BlogPage from "./pages/BlogPage";
 import BlogDetail from "./pages/BlogDetail";
 import StudentProgressDashboard from "./pages/StudentProgressDashboard";
 import studentsData from "./data/students-data.json";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Apps from "./pages/Apps";
+import Courses from "./pages/Courses";
 
 function App() {
   const [selectedStudentId, setSelectedStudentId] = useState(1);
@@ -34,6 +38,9 @@ function App() {
   return (
     <Router>
       <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/app" element={<Apps/>}/>
+      <Route path="/courses" element={<Courses/>}/>
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
         <Route

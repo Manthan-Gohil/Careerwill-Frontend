@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { ArrowRight, ChevronDown, Filter, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { blog } from '../constants/data.json';
+import Navbar from "../components/Navbar";
 
 const BlogPage = () => {
     const [visibleCards, setVisibleCards] = useState(new Set());
@@ -202,56 +203,7 @@ const BlogPage = () => {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
-            <div className="bg-white shadow-sm sticky top-0 z-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex justify-between items-center py-4">
-                        <div className="flex items-center space-x-2">
-                            <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
-                                <span className="text-white font-bold text-sm">CW</span>
-                            </div>
-                            <span className="text-xl font-semibold text-gray-900">
-                                careerwill
-                            </span>
-                        </div>
-                        <nav className="hidden md:flex space-x-8">
-                            <a
-                                href="#"
-                                className="text-gray-700 hover:text-teal-600 transition-colors"
-                            >
-                                Home
-                            </a>
-                            <a
-                                href="#"
-                                className="text-gray-700 hover:text-teal-600 transition-colors"
-                            >
-                                App
-                            </a>
-                            <a
-                                href="#"
-                                className="text-gray-700 hover:text-teal-600 transition-colors"
-                            >
-                                Courses
-                            </a>
-                            <a
-                                href="#"
-                                className="text-gray-700 hover:text-teal-600 transition-colors"
-                            >
-                                Online School
-                            </a>
-                            <a
-                                href="#"
-                                className="text-gray-700 hover:text-teal-600 transition-colors"
-                            >
-                                Contact Us
-                            </a>
-                        </nav>
-                        <button className="bg-teal-100 text-teal-700 px-4 py-2 rounded-lg hover:bg-teal-200 transition-colors">
-                            Login
-                        </button>
-                    </div>
-                </div>
-            </div>
-
+            <Navbar/>
             {/* Blog Section */}
             <section className="py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
