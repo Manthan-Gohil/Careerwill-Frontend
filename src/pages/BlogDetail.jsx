@@ -223,7 +223,6 @@ const ContentRenderer = ({ content, index }) => {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
-            <Navbar/>
 
             {/* Back to Posts */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
@@ -440,23 +439,6 @@ const ContentRenderer = ({ content, index }) => {
                     </div>
                 )}
             </article>
-
-            {/* Footer */}
-            <footer className="bg-gray-900 text-white py-12 mt-16">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center">
-                        <div className="flex items-center justify-center space-x-2 mb-4">
-                            <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
-                                <span className="text-white font-bold text-sm">CW</span>
-                            </div>
-                            <span className="text-xl font-semibold">careerwill</span>
-                        </div>
-                        <p className="text-gray-400">
-                            Transforming education through comprehensive learning solutions and expert guidance.
-                        </p>
-                    </div>
-                </div>
-            </footer>
         </div>
     );
 };

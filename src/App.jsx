@@ -8,13 +8,16 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Apps from "./pages/Apps";
 import Courses from "./pages/Courses";
+import Layout from "./components/Layout";
 
 function App() {
   const [selectedStudentId, setSelectedStudentId] = useState(1);
   const [selectedStudent, setSelectedStudent] = useState(null);
 
   useEffect(() => {
-    const student = studentsData.students.find((s) => s.id === selectedStudentId);
+    const student = studentsData.students.find(
+      (s) => s.id === selectedStudentId
+    );
     if (student) {
       setSelectedStudent(student);
     }
@@ -38,22 +41,24 @@ function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/app" element={<Apps/>}/>
-      <Route path="/courses" element={<Courses/>}/>
-        <Route path="/blog" element={<BlogPage />} />
-        <Route path="/blog/:id" element={<BlogDetail />} />
-        <Route
-          path="/dashboard"
-          element={
-            <StudentProgressDashboard
-              studentData={selectedStudent}
-              students={studentsData.students}
-              selectedStudentId={selectedStudentId}
-              onStudentChange={handleStudentChange}
-            />
-          }
-        />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home/>}/>
+          <Route path="app" element={<Apps />} />
+          <Route path="courses" element={<Courses />} />
+          <Route path="blog" element={<BlogPage />} />
+          <Route path="blog/:id" element={<BlogDetail />} />
+          <Route
+            path="dashboard"
+            element={
+              <StudentProgressDashboard
+                studentData={selectedStudent}
+                students={studentsData.students}
+                selectedStudentId={selectedStudentId}
+                onStudentChange={handleStudentChange}
+              />
+            }
+          />
+        </Route>
       </Routes>
     </Router>
   );

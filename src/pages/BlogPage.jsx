@@ -203,7 +203,6 @@ const BlogPage = () => {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
-            <Navbar/>
             {/* Blog Section */}
             <section className="py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -397,22 +396,7 @@ const BlogPage = () => {
             </section>
 
             {/* Footer */}
-            <footer className="bg-gray-900 text-white py-12">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center">
-                        <div className="flex items-center justify-center space-x-2 mb-4">
-                            <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
-                                <span className="text-white font-bold text-sm">CW</span>
-                            </div>
-                            <span className="text-xl font-semibold">careerwill</span>
-                        </div>
-                        <p className="text-gray-400">
-                            Transforming workplace wellbeing through psychology and
-                            data-driven insights.
-                        </p>
-                    </div>
-                </div>
-            </footer>
+           
         </div>
     );
 };
