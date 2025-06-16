@@ -24,7 +24,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-gray-50">
+    <div className="relative h-64 bg-gray-50">
 
       {/* Footer */}
       <footer 

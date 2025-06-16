@@ -4,13 +4,16 @@ import BlogPage from "./pages/BlogPage";
 import BlogDetail from "./pages/BlogDetail";
 import StudentProgressDashboard from "./pages/StudentProgressDashboard";
 import studentsData from "./data/students-data.json";
-import Navbar from "./components/Navbar";
+import manthanData from "./data/manthan-data.json"
 import Home from "./pages/Home";
 import Apps from "./pages/Apps";
 import Courses from "./pages/Courses";
 import Layout from "./components/Layout";
+import AdminPanel from './components/AdminPanel';
+import Login from './components/Login';
 
 function App() {
+  const [isAdmin, setIsAdmin] = useState(false);
   const [selectedStudentId, setSelectedStudentId] = useState(1);
   const [selectedStudent, setSelectedStudent] = useState(null);
 
@@ -47,14 +50,14 @@ function App() {
           <Route path="courses" element={<Courses />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog/:id" element={<BlogDetail />} />
+           <Route path="/admin" element={
+            isAdmin ? <AdminPanel /> : <Login setIsAdmin={setIsAdmin} />
+          } />
           <Route
             path="dashboard"
             element={
               <StudentProgressDashboard
-                studentData={selectedStudent}
-                students={studentsData.students}
-                selectedStudentId={selectedStudentId}
-                onStudentChange={handleStudentChange}
+                studentData={manthanData}
               />
             }
           />

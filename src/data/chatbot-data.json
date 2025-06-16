@@ -1,0 +1,224 @@
+{
+  "APPLICATION": [
+    {
+      "question": "BUFFERING HO RHA HAI",
+      "answer": "SETTINGS PE JAO, CLEAR CACHE, CLEAR DATA, NETWORK RESET, RESTART DEVICE"
+    },
+    {
+      "question": "DOWNLOADING ISSUE",
+      "answer": "CLEAR DATS , CLEAR CACHE , NETWORK RESET RESTART DEVICE ."
+    },
+    {
+      "question": "NOTES OPEN NHI HOTE ?",
+      "answer": "UPDATE GOOGLE DRIVE AND ADOBE ACROBAT PDF VIEWER.."
+    },
+    {
+      "question": "CLASS OFF HOTI HAI UPDATE NHI MILTA HAI .KAISE CHECK KREIN HAM .",
+      "answer": "KOI BHI CLASS OFF HONE PAR AP ANNOUNCEMENT SECTION CHECK KR SAKTE HAI ."
+    },
+    {
+      "question": "BATCH PURCHASE HONE KE BAAD BATCH KO KAISE DEKHE",
+      "answer": "BATCHES CATEGORY KO OPEN KRKE MY BATCH CATEGORY CHECK KIJIYE"
+    },
+    {
+      "question": "PASSWORD KAISE CHANGE KREIN ?",
+      "answer": "FORGOT PASSWORD SE YA APPLICATION PROFILE SECTION MEIN APKO CHANGE PASSWORD KA OPTION ALREADY DIYA HAI USKE THOUGH BHI KAR SAKTE HAI ."
+    },
+    {
+      "question": "How to verify the Email ?",
+      "answer": "MAIL VERIFY NA JONE PAR . APPLICATION PROFILE SECTION KO OPEN KRKE MAIL VERIFY OPTION KO CLICK KRKE OTP KE THOUGH SELF KAR SAKTE HO ."
+    },
+    {
+      "question": "MERI APPLICATION DARK MODE PAR CHALI GYI HAI KAISE USKO LIGHT MODE PR KARIN?",
+      "answer": "PROFILE INTERFACE KO OPEN KRKE DARK MODE OPTION SE KR SAKTE HAI"
+    },
+    {
+      "question": "TEST KA SOLUTION KAISE MILEGA ?",
+      "answer": "TEST KO ATTEMPT KRNE KE BAAD SUBMIT TEST PAR CLICK KRO CLICK KRNE LE BAAD VIEW SOLUTION PR CLICK KARKE SOLUTION QUESTION WISE CHECK KRO"
+    },
+    {
+      "question": "KYA ID KO LOGOUT LARNE KE BAAD ID FIR SE LOGIN KAR SAKTE HAI ?",
+      "answer": "YES, KAR SAKTE HAI . FORGOT PASSWORD KARKE FIR SE ID KO LOGIIN KIYA JA SAKTA HAI."
+    },
+    {
+      "question": "IOS , (IPHONE) KE KISI BHI DEVICE MEIN APPLICATION NHI CHALTA HAI ?",
+      "answer": "APPLICATION IOS MEIN WORK NHI KRTA HAI . BUT AP WEB LOGIN KE THOUGH CLASSES APPLICATION KI TARHA HE RUN KAR SAKTE HAI."
+    },
+    {
+      "question": "2 STUDENT EK SATH SAME BATCH 2 DIFFERENT DEVICE MEIN USE KR SAKTE HAI ?",
+      "answer": "NO, STUDENT 2 DIFFERENT DEVICE MEIN USE NHI KAR SAKTE  SAME ID"
+    },
+    {
+      "question": "DOWNLOAD VIDEOS DELETE KAISE KREIN ?",
+      "answer": "DOWNLOAD OPTION MEIN DUSTBIN ICON KO CLICK KRKE"
+    },
+    {
+      "question": "FREE BATCH KO ACCESS KAISE KREIN .",
+      "answer": "SPECIAL BATCHES CATEGORY MEIN CLICK KARKE AVAILABLE FREE BATCH KO ENROLL KAR SAKTE HAI ."
+    },
+    {
+      "question": "APPLICATION KE NOTIFICATION KAHA SE CHECK KREIN ?",
+      "answer": "APPLICATION KO OPEN BELL ICON KO CLICK KRNE PAR .."
+    }
+  ],
+  "WEB": [
+    {
+      "question": "WEB TOKEN MISMATCH ISSUE",
+      "answer": "LAPTOP, PC  RESTART ADJUST TIME AND TIME ZONE"
+    },
+    {
+      "question": "web buffering issue is there.",
+      "answer": "RELOAD DEVICE ,BROWSER UPDATE , RESET NETWORK , WIFI ROUTER REFRESH."
+    },
+    {
+      "question": "WEB LOGIN KARNE PAR KYA CLASSES DOWNLOAD HO SAKTI HAI?",
+      "answer": "NO , CLASSES DOWNLOAD NHI HONGI WEB KE THOUGH"
+    },
+    {
+      "question": "WEB PAR TEST ATTEMPT KAR SAKTE HAI ?",
+      "answer": "YES WEB TEST SERIES OPTION PR CLICK KRKE TEST ATTEMPT KAR SAKTE HAI"
+    }
+  ],
+  "DOUBT": [
+    {
+      "question": "DOUBT KAISE POST KREIN ?",
+      "answer": "MORE OPTION PR CLICK KRKE DOUBT SECTION OPEN KRENGE THEN  MATHS ENGLISH REASONING OPTION KO CLICK KRENGE  UPLOAD IMAGE PR DIRECT CAMERA OPTION CHOOSE KRTE HUE DOUBT POST KRENGE."
+    },
+    {
+      "question": "DOUBT KA SOLUTION KAB TAK PROVIDE HOTA HAI .",
+      "answer": "WITHIN 24 HR MEIN DOUBT KA ANSWER MILTA HAI ."
+    }
+  ],
+  "E-BOOK": [
+    {
+      "question": "E-BOOK KO DOWNLOAD KAISE KRENGE.",
+      "answer": "EBOOK OPTION FREE HAI APKO ONLY READ KR SAKTE HO ."
+    }
+  ],
+  "BOOK": [
+    {
+      "question": "RAKESH SIR KI BOOK KAISE BUY KR SALTE HAI APPLICATION SE?",
+      "answer": "OFFLINE , ONLINE AMAZON FLIPKART KE PURCHASE KR SAKTE HAI ."
+    },
+    {
+      "question": "BOOK KE VIDEO SOLUTION KAHA SE DEKH SALTE HAI .",
+      "answer": "VIDEO BOOK SECTION SE VIDEO SOLUTION Coupon code APPLY KRKE DEKH SAKTE HAI FREE"
+    }
+  ],
+  "MAGAZINE": [
+    {
+      "question": "CURRENT AFFAIRS MAGAZINE KAISE ACCESS KREIN ?",
+      "answer": "CURRENT AFFAIRS MAGAZINE GOOGLE DRIVE KE THOUGH APPLICATION SE ACCESS KR SAKTE HAI. EVERY MONTH."
+    }
+  ],
+  "PAYMENT": [
+    {
+      "question": "BATCH KO DIRECT BUY KAISE KREIN ?",
+      "answer": "APPLICATION DOWNLOAD KRNE KE BAAD BATCHES CATEGORY MEIN  EXAM CATEGORY KE ACCORDING BUY KR SAKTE HAI"
+    },
+    {
+      "question": "DOUBLE PAYMENT KA AMOUNT REFUND KAISE LE?",
+      "answer": "PAYMENT CUT HONE LE BAAD APNI REQUEST MENTION KRWAYE ."
+    },
+    {
+      "question": "BATCH PURCHASE KRNE KE LIYE KOI EMI OPTION AVAILABLE HAI .",
+      "answer": "NO , EMI OPTION AVAILABLE NHI HOGA .."
+    }
+  ],
+  "REFUND": [
+    {
+      "question": "BATCH REFUND KAISE KARWAYE?",
+      "answer": "APNI REQUEST 7 DAYS SE PEHLE MENTION KARWAYE ?"
+    }
+  ],
+  "TRANSFER": [
+    {
+      "question": "GALTI SE PURCHASE BATCH KA TRANSFER KAISE KRWAYE ?",
+      "answer": "APNI REQUEST 7 DAYS SE PEHLE MENTION KARWAYE"
+    }
+  ],
+  "BATCH": [
+    {
+      "question": "SSC AARAMBH PRATHAM, SANKALP BATCH KE VOD ADD NHI HUE HAI .?",
+      "answer": "EVERY SATURDAY BATCH ACTIVE KIYE JATE HAI ."
+    },
+    {
+      "question": "BATCH KI VALIDITY EXTEND HO SAKTI HAI ?",
+      "answer": "NO , BATCH KI VALIDITY EXTEND NHI HOTI HAI .."
+    }
+  ],
+  "CLASS": [
+    {
+      "question": "KYA BATCH KI CLASSES LIVE HONE KE BAAD APPLICATION SE REMOVE HP JATI HAI ?",
+      "answer": "NO, CLASS LIVE HONE LE BAAD APPLICATION SE REMOVE NHI HOTI HAI TILL VALIDITY CLASS KO ACCESS KR SAKTE HAI ."
+    },
+    {
+      "question": "TEACHER CLASSES KONSI LANGUAGE MEIN LETE HAI ..? KYA TEACHER ENGLISH MEIIN CLASSES LENGE ?",
+      "answer": "CLASSES TEACHER BILINGUAL PROVIDE KRWATE HAI JISME . TEACHER HINDI LANGUAGE OR ENGLISH LANGUAGE DONO HE COVER KRWATE HAI . BUT COMUNICATION LANGUAGE HINDI HE RAHEGA MOSTLY."
+    }
+  ],
+  "YOUTUBE": [
+    {
+      "question": "KYA YOUTUBE CHANNEL KI CLASSES KE NOTES PROVIDE HOTE HAI ?",
+      "answer": "YES, VIDEO KE COMMENT BOX MEIN OR DISCRIPTION BOX MEIN PDF LINK MENTION KIYA JATA HAI ."
+    }
+  ],
+  "TEACHER": [
+    {
+      "question": "KISI BHI TEACHER SE MILNE KI SUVIDHA HAI ?",
+      "answer": "NO, TEACHER SE AP ESE NHI MIL SAKTE HAI MEETUP OR  SELECTION INTERVIEW THOUGH HE MIL SAKTE HAI ."
+    }
+  ],
+  "PDF": [
+    {
+      "question": "PDF BILINGUAL PROVIDE HOTE?",
+      "answer": "YES PDF BILINGUAL HE PROVIDE HOTE HAI. HAR BATCH MEIN ."
+    }
+  ],
+  "CLASSES": [
+    {
+      "question": "WEEK MEIN KITNE DIN CLASSES PROVIDE HOTI HAI .?",
+      "answer": "WEEK MEIN MONDAY TO SATURDAY CLASSES PROVIDE HOTI HAI"
+    }
+  ],
+  "NAN": [
+    {
+      "question": "nan",
+      "answer": "nan"
+    }
+  ],
+  "JEE": [
+    {
+      "question": "JEE BATCH MAY  KYA KYA MATERIAL PROVIDE HONGI",
+      "answer": "DPP, PYQ , PYQ SOLUTION , CLASS NOTES , MODULES , TEST , MENTORSHIP\n"
+    },
+    {
+      "question": "When Will JEE 2025 will take place ",
+      "answer": "The JEE will be begain from 26 Feb."
+    }
+  ],
+  "NEET": [
+    {
+      "question": "When we have our NEET exam starting",
+      "answer": "The Dates will be anounce soon."
+    }
+  ],
+  "UPSC": [
+    {
+      "question": "What is the Roadmap to crack UPSC exam",
+      "answer": "You can visit to our app/website to know the courses and proper roadmap."
+    }
+  ],
+  "SSC": [
+    {
+      "question": "SSC ka roadmap",
+      "answer": "Checkout our courses."
+    }
+  ],
+  "LIVE CLASS": [
+    {
+      "question": "Live class is not working.",
+      "answer": "You can contact to our support team Ph no.: 9XXXXXXXXX."
+    }
+  ]
+}

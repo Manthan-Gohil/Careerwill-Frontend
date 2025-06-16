@@ -17,9 +17,20 @@ import {
   AreaChart,
   Area,
 } from "recharts"
-import { TrendingUp, TrendingDown, Award, Target, Clock, Brain, Calendar, CheckCircle, Play, ChevronDown } from "lucide-react"
+import {
+  TrendingUp,
+  TrendingDown,
+  Award,
+  Target,
+  Clock,
+  Brain,
+  Calendar,
+  CheckCircle,
+  Play,
+  RefreshCw,
+} from "lucide-react"
 
-const StudentProgressDashboard = ({ studentData, students, selectedStudentId, onStudentChange }) => {
+const StudentProgressDashboard = ({ studentData }) => {
   const [selectedTimeframe, setSelectedTimeframe] = useState("month")
 
   const StatCard = ({ title, value, change, icon: Icon, color, subtitle }) => (
@@ -55,44 +66,23 @@ const StudentProgressDashboard = ({ studentData, students, selectedStudentId, on
       <div className="max-w-7xl mx-auto p-6">
         {/* Header */}
         <div className="mb-8">
-          <div className="flex items-center justify-between flex-wrap gap-4">
-            <div className="flex items-center gap-4 flex-wrap">
-              {/* Student Dropdown */}
-              <div className="relative">
-                <select
-                  value={selectedStudentId}
-                  onChange={e => onStudentChange(Number(e.target.value))}
-                  className="pl-4 pr-10 py-2 border border-gray-300 rounded-lg appearance-none bg-white text-lg font-semibold text-gray-900"
-                >
-                  {students.map(s => (
-                    <option key={s.id} value={s.id}>
-                      {s.name} - Score: {s.overallScore}
-                    </option>
-                  ))}
-                </select>
-                <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
-              </div>
-              {/* Small Button */}
-              <button
-                className="px-3 py-1 text-sm bg-blue-100 text-blue-700 rounded hover:bg-blue-200 transition-colors font-medium"
-              >
-                Share
-              </button>
-              {/* Timeframe Dropdown */}
-              <div className="relative">
-                <select
-                  value={selectedTimeframe}
-                  onChange={e => setSelectedTimeframe(e.target.value)}
-                  className="pl-4 pr-10 py-2 border border-gray-300 rounded-lg appearance-none bg-white text-base"
-                >
-                  <option value="week">This Week</option>
-                  <option value="month">This Month</option>
-                  <option value="quarter">This Quarter</option>
-                </select>
-                <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
-              </div>
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900 mb-2">{studentData.name}'s Progress Dashboard</h1>
+              <p className="text-gray-600">Track your academic journey and stay motivated!</p>
             </div>
-            <p className="text-gray-600 w-full sm:w-auto mt-2 sm:mt-0">Track your academic journey and stay motivated!</p>
+            <div className="flex items-center space-x-4">
+             
+              <select
+                value={selectedTimeframe}
+                onChange={(e) => setSelectedTimeframe(e.target.value)}
+                className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              >
+                <option value="week">This Week</option>
+                <option value="month">This Month</option>
+                <option value="quarter">This Quarter</option>
+              </select>
+            </div>
           </div>
         </div>
 
